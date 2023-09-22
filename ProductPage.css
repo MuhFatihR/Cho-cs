@@ -1,0 +1,317 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background: #FF8303;
+}
+
+.Wrapper1{
+    justify-content: space-around;
+    width: 100%;
+    outline: black;
+    display: flex;
+}
+
+.Wrapper1 h1{
+    padding-top: 45px;
+    font-family: 'IM Fell English', serif;
+    font-size: 40px;
+}
+
+.Wrapper1 img{
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FC4F4F;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+    list-style: none;
+    padding: 0 12px;
+    position: relative;
+    background: #FC4F4F;
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-links ul li:hover{
+    list-style: none;
+    padding: 1px 12px;
+    position: relative;
+    background: #D63D3D;
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-links ul li a{
+    margin: auto;
+    font-family: 'IM Fell English', serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.nav-links ul li a :hover{
+    color: white;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.login{
+    padding-left: 950px;
+}
+
+.Body{
+    font-family: 'IM Fell English', serif;
+    background: #F0E3CA;
+    margin-bottom: 0%;
+    padding-bottom: 30px;
+}
+
+.bodyRight{
+    width: 85%;
+    margin: 0 4%;
+    margin-left: 120px;
+    text-align: center;
+    padding-top: 65px;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-right: 0;  
+}
+
+.row1 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+} 
+
+.types {
+    margin-bottom: 5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.View img{
+    width: 300px;
+    height: 140px;
+    padding-top: 0px;
+    margin-bottom: 110px;
+    width: 100%;
+}
+
+.View h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+    color:rgb(69, 69, 72);
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    margin-top: -100px;
+}
+
+.View p {
+    font-family: 'IM Fell English', serif;
+}
+
+.View {
+    /* display: inline-flex; */
+    height: 220px;
+    width: 250px;
+    padding: 0;
+    background: rgb(236, 232, 232);
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.View:hover{
+    transform: scale(1.1);
+    background: rgb(138, 137, 137);
+    box-shadow: 15px 15px 15px 3px rgba(0, 0, 0, 1);
+}
+
+.row2 {
+    margin-top: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    /* padding: 0 5%; */
+}
+
+.row3 {
+    margin-top: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    /* padding: 0 5%; */
+}
+
+.wrapper2 {
+    width: 100%;
+    margin:auto;
+    position:static;
+    display:grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigate{
+    background: #F0E3CA;
+}
+
+.button1 {
+    margin-left: 44%;
+    display: grid;
+    height: 60px;
+    width: 160px;
+    padding: 0;
+    background: #FC4F4F;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'IM Fell English', serif;
+    font-weight: 500px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.button1 a {
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    color:black;
+    height: 100%;
+    font-size: 23px;
+}
+
+.button1:hover {
+    background: #b92e2e;
+}
+
+.button1:active {
+    background: #851a1a;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background:rgb(95, 70, 47);
+    border:none;
+    outline: none;
+    overflow: hidden;
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+}
+
+.footer_text a p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 900;
+    float: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.line {
+    width: 1200px;
+    height: 3px;
+    background: cornsilk;
+    display: inline-block;
+}
+
+.sosmed{
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FATIH {
+    margin-right: 1%;
+}
+
+.FATIH a h3{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.ANDREW {
+    margin-left: 1%;
+}
+
+.ANDREW a h3{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){ 
+    .bodyRight{
+        width: 50%;
+        margin-right: 500px;
+    }
+
+    .row1, .row2, .row3{
+        align-items: center;
+        flex-direction: column;
+    }
+}

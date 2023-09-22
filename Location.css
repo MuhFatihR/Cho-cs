@@ -1,0 +1,284 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background: #FF8303;
+}
+
+.Wrapper1{
+    justify-content: space-around;
+    width: 100%;
+    outline: black;
+    display: flex;
+}
+
+.Wrapper1 h1{
+    padding-top: 45px;
+    font-family: 'IM Fell English', serif;
+    font-size: 40px;
+}
+
+.Wrapper1 img{
+    padding: 10px 0;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.login{
+    padding-left: 950px;
+}
+
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FC4F4F;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+    list-style: none;
+    padding: 0 12px;
+    position: relative;
+    background: #FC4F4F;
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-links ul li:hover{
+    list-style: none;
+    padding: 1px 12px;
+    position: relative;
+    background: #D63D3D;
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-links ul li a{
+    margin: auto;
+    font-family: 'IM Fell English', serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.nav-links ul li a :hover{
+    color: white;
+}
+
+
+.Body{
+    font-family: 'IM Fell English', serif;
+    background: #F0E3CA;
+    margin-bottom: 0%;
+    padding-bottom: 30px;
+}
+
+.teks{
+    padding-top: 90px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.teks h2{
+    font-size: 50px;
+}
+
+.List {
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 94%;
+    margin: auto;
+    padding: 7% 4%;
+}
+
+.types{
+    display: flex;
+    height: 210px;
+    background:#F0E3CA;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    padding:0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 3px solid black;
+    transition: .2s;
+}
+
+.types:hover{
+    /* -ms-transform: scale(1.06);
+    -webkit-transform: scale(1.06);  */
+    transform: scale(1.06); 
+    cursor: pointer;
+    box-shadow: 7px 7px 3px rgb(95, 70, 47);
+}
+
+.types1 {
+    /* width: 100%; */
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.types1 h1{
+    font-size: 40px;
+    padding-left: 5%;
+    text-align: left;
+    width: 400px;
+}
+
+.types1 h2{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.JamBuka{
+    padding-top: 40px;
+    padding-left: 4%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    width: 950px;
+}
+
+.open{
+    padding-right: 80%;
+    color: #0CC356;
+}
+
+.jam{
+    color: #004FC6;
+}
+
+.wrapper2{
+    width: 1440px;
+    margin: auto;
+}
+
+.navigate{
+    background: #F0E3CA;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background:rgb(95, 70, 47);
+    border:none;
+    outline: none;
+    overflow: hidden;
+}
+
+.footer_text a p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 900;
+    float: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.line {
+    width: 1200px;
+    height: 3px;
+    background: cornsilk;
+    display: inline-block;
+}
+
+.sosmed{
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FATIH {
+    margin-right: 1%;
+}
+
+.FATIH a h3{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.ANDREW {
+    margin-left: 1%;
+}
+
+.ANDREW a h3{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){ 
+    .List{
+        width: 110%;
+        margin-left: -25px;
+    }
+
+    .wrapper2{
+        width: 600px;
+    }
+
+    .types1{
+        width: 35%;
+    }
+
+    .types1 h1{
+        font-size: 30px;
+    }
+
+    .JamBuka{
+        margin-top: -40px;
+        margin-left: -400px;
+        display: grid;
+    }
+
+    .teks h2{
+        margin-right: 600px;
+    }
+
+    
+}

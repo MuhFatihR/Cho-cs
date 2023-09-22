@@ -1,0 +1,199 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.Header {
+    background: #FF8303;
+}
+
+.Wrapper1{
+    justify-content: space-around;
+    width: 100%;
+    outline: black;
+    display: flex;
+}
+
+.Wrapper1 h1{
+    padding-top: 45px;
+    font-family: 'IM Fell English', serif;
+    font-size: 40px;
+}
+
+.Wrapper1 img{
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FC4F4F;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+    list-style: none;
+    padding: 0 12px;
+    position: relative;
+    background: #FC4F4F;
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-links ul li:hover{
+    list-style: none;
+    padding: 1px 12px;
+    position: relative;
+    background: #D63D3D;
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-links ul li a{
+    margin: auto;
+    font-family: 'IM Fell English', serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.nav-links ul li a :hover{
+    color: white;
+}
+
+
+.Body{
+    font-family: 'IM Fell English', serif;
+    margin-bottom: 0%;
+    padding-bottom: 30px;
+    background-image: linear-gradient(rgba(50, 50, 50, 0.538), rgba(4, 9, 30, 0.56)), url(./assets/About\ Us\ Background.jpg);
+    height: 115vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+}
+
+.wrapper2{
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.wrapper2 h1{
+    color: white;
+    padding: 5% 10% 0 10%;
+    font-size: 45px;
+}
+
+.wrapper2 h2{
+    color: white;
+    padding: 5% 10% 0 10%;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.navigate{
+    background-image: linear-gradient(rgba(50, 50, 50, 0.538), rgba(4, 9, 30, 0.56)), url(./assets/About\ Us\ Background.jpg);
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background:rgb(95, 70, 47);
+    border:none;
+    outline: none;
+    overflow: hidden;
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+}
+
+.footer_text a p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 900;
+    float: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.line {
+    width: 1200px;
+    height: 3px;
+    background: cornsilk;
+    display: inline-block;
+}
+
+.sosmed{
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FATIH {
+    margin-right: 1%;
+}
+
+.FATIH a h3{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.ANDREW {
+    margin-left: 1%;
+}
+
+.ANDREW a h3{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1300px){ 
+    .wrapper2 h2{
+        font-size: 30px;
+    }
+
+    .row1, .row2, .row3{
+        align-items: center;
+        flex-direction: column;
+    }
+}
